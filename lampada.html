@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lâmpada</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="lampada-container">
+        <img id="lampada" src="../Lampada EX/apagada.jpg" alt="Lâmpada apagada">
+
+        <button onclick="acenderLampada()" class="acender-button">Acender</button>
+        <button onclick="apagarLampada()" class="apagar-button">Apagar</button>
+    </div>
+
+    <script>
+        function acenderLampada() {
+            document.getElementById("lampada").src = "acesa.jpg";
+        }
+
+        function apagarLampada() {
+            document.getElementById("lampada").src = "apagada.jpg";
+        }
+    </script>
+
+
+</body>
+</html>

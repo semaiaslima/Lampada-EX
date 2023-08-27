@@ -1,0 +1,13 @@
+.lampada-container{
+    text-align: center;
+}
+
+.acender-button{
+    float: right;
+    margin-left: 10px;
+}
+
+.apagar-button{
+    float: left;
+    margin-right: 10px;
+}
